@@ -4,6 +4,7 @@ export interface Blog {
   content: string;
   date: string;
   category?: string;
+  image?:string;
 }
 
 export const getBlogs = (): Blog[] => {
