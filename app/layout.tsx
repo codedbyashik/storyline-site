@@ -18,11 +18,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
           {children}
         </main>
 
-        <footer className="w-full mt-auto">
-          <div className="w-full backdrop-blur-md bg-white/10 border-t border-white/20 px-4 py-4">
-            <Footer />
-          </div>
-        </footer>
+        {/* Directly render Footer without extra wrapper div */}
+        <Footer />
 
       </body>
     </html>
